@@ -1,0 +1,56 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1350771044.945486:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%4e574c108b2c0a76d9fe8e08fcf2cdcfI"logical_path;
+FI"application.js;
+TI"pathname;
+FI"0$root/app/assets/javascripts/application.js;
+FI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2012-10-20T15:13:59-03:00;
+FI"	body;
+FI"”// This is a manifest file that'll be compiled into including all the files listed below.
+// Add new JavaScript/Coffee code in separate files in this directory and they'll automatically
+// be included in the compiled file accessible from http://example.com/assets/application.js
+// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
+// the compiled file.
+//
+;
+;
+FI"asset_paths;
+F[I"m/home/lucasbibiano/.rvm/gems/ruby-1.9.3-p194/gems/jquery-rails-2.1.3/vendor/assets/javascripts/jquery.js;
+FI"q/home/lucasbibiano/.rvm/gems/ruby-1.9.3-p194/gems/jquery-rails-2.1.3/vendor/assets/javascripts/jquery_ujs.js;
+FI"0$root/app/assets/javascripts/application.js;
+FI"dependency_paths;
+F[	{I"	path;
+FI"0$root/app/assets/javascripts/application.js;
+FI"
+mtime;
+FIu:	Time’&€5Ö³7
+:@_zoneI"BRT;
+T:nano_numiD:nano_deni:submicro"ƒ`:offsetiþÐÕI"hexdigest;
+F"%0f1cfbc0bc3803a9dbf1a44d1da6ff92{I"	path;
+FI"!$root/app/assets/javascripts;
+FI"
+mtime;
+FIu;’&€5Ö³7
+;I"BRT;
+T;iD;i;"ƒ`;iþÐÕI"hexdigest;
+F"%9fc91fc75938cd11a57805188f2a2260{I"	path;
+FI"m/home/lucasbibiano/.rvm/gems/ruby-1.9.3-p194/gems/jquery-rails-2.1.3/vendor/assets/javascripts/jquery.js;
+FI"
+mtime;
+FIu;7#€8ØÍ
+;I"BRT;
+T;i(;i;"€€;iþÐÕI"hexdigest;
+F"%17a9610a099bb1cbc707c9d9f442d834{I"	path;
+FI"q/home/lucasbibiano/.rvm/gems/ruby-1.9.3-p194/gems/jquery-rails-2.1.3/vendor/assets/javascripts/jquery_ujs.js;
+FI"
+mtime;
+FIu;7#€8ØÍ
+;I"BRT;
+T;i(;i;"€€;iþÐÕI"hexdigest;
+F"%861287a1c945d796aa16612f1ba9b042I"_version;
+F"%0868aba5d4b750d3a9421721ea3d9b9c

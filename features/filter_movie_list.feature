@@ -28,8 +28,29 @@ Scenario: restrict to movies with 'PG' or 'R' ratings
   # enter step(s) to ensure that PG and R movies are visible
   # enter step(s) to ensure that other movies are not visible
 
+  Given I check the following ratings: PG, R
+  Given I uncheck the following ratings: PG-13, G
+  When I submit the filter form
+    Then I should see 'The Terminator'
+    Then I should see 'When Harry Met Sally'
+    Then I should see 'Amelie'
+    Then I should see 'The Incredibles'
+    Then I should see 'Raiders of the Lost Ark'
+
+    Then I should not see 'Alladin'
+    Then I should not see 'The Help'
+    Then I should not see 'Chocolat'
+    Then I should not see '2001: A Space Odyssey'
+    Then I should not see 'Chicken Run'
+
 Scenario: no ratings selected
   # see assignment
+  Given I uncheck the following ratings: PG, G, PG-13, R, NC-17
+  When I submit the filter form
+    Then I should see all movies
 
 Scenario: all ratings selected
   # see assignment
+  Given I check the following ratings: PG, G, PG-13, R, NC-17
+  When I submit the filter form
+    Then I should see all movies
